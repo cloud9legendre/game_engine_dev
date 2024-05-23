@@ -6,9 +6,9 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-I", "${workspaceFolder}/include",
-                "-L", "${workspaceFolder}/lib",
-                "-o", "${workspaceFolder}/bin/main.exe",
+                "-I${workspaceFolder}/include",
+                "-L${workspaceFolder}/lib",
+                "-o${workspaceFolder}/bin/main.exe",
                 "${workspaceFolder}/src/main.cpp",
                 "-lmingw32",
                 "-lSDL2main",
